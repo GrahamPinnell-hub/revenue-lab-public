@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Revenue Lab | Public Staging</title>
+  <style>
+    :root { color-scheme: dark; --bg:#06101c; --panel:#0b1928; --line:#28415a; --text:#e6edf5; --muted:#93a9bd; --cyan:#5bc0d1; --amber:#e7b45c; }
+    * { box-sizing:border-box; }
+    body { margin:0; min-height:100vh; display:grid; place-items:center; background:radial-gradient(circle at 20% 10%,#102b42 0,transparent 36%),linear-gradient(145deg,#050c15,#081522 65%,#06101c); color:var(--text); font-family:"Aptos","Segoe UI",sans-serif; }
+    main { width:min(900px,calc(100% - 32px)); border:1px solid var(--line); background:linear-gradient(180deg,rgba(14,32,49,.96),rgba(7,20,33,.98)); box-shadow:0 28px 80px rgba(0,0,0,.35); }
+    header { display:flex; justify-content:space-between; gap:24px; padding:18px 22px; border-bottom:1px solid var(--line); }
+    .eyebrow,.status,dt { font:600 12px/1.3 Consolas,monospace; letter-spacing:.12em; text-transform:uppercase; }
+    .eyebrow { color:var(--cyan); }
+    .status { color:#8ed9b1; }
+    section { padding:clamp(28px,6vw,64px); }
+    h1 { max-width:680px; margin:10px 0 18px; font:600 clamp(36px,7vw,70px)/.98 Georgia,serif; letter-spacing:-.035em; }
+    .lede { max-width:650px; margin:0; color:var(--muted); font-size:18px; line-height:1.65; }
+    dl { display:grid; grid-template-columns:repeat(3,1fr); margin:42px 0 0; border:1px solid var(--line); }
+    dl div { padding:18px; border-right:1px solid var(--line); }
+    dl div:last-child { border-right:0; }
+    dt { color:var(--muted); }
+    dd { margin:10px 0 0; font:600 15px/1.4 Consolas,monospace; color:var(--text); }
+    footer { padding:15px 22px; border-top:1px solid var(--line); color:var(--muted); font:12px/1.5 Consolas,monospace; }
+    @media(max-width:650px){ header{align-items:flex-start;flex-direction:column} dl{grid-template-columns:1fr} dl div{border-right:0;border-bottom:1px solid var(--line)} dl div:last-child{border-bottom:0} }
+  </style>
+</head>
+<body>
+  <main>
+    <header><span class="eyebrow">Revenue Lab / Public Staging</span><span class="status">Online / Canary</span></header>
+    <section>
+      <p class="eyebrow">Deployment Verification</p>
+      <h1>Public delivery path established.</h1>
+      <p class="lede">This page verifies the public hosting channel only. No products or services are offered, no customers are identified, no earnings are claimed, and no payments are accepted.</p>
+      <dl>
+        <div><dt>Environment</dt><dd>PUBLIC STAGING</dd></div>
+        <div><dt>Authority</dt><dd>OPERATOR ONLY</dd></div>
+        <div><dt>Commerce</dt><dd>DISABLED</dd></div>
+      </dl>
+    </section>
+    <footer>STATIC CANARY / NO TRACKING / NO FORMS / NO EXTERNAL ACTIONS</footer>
+  </main>
+</body>
+</html>
